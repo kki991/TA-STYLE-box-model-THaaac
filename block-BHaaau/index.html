@@ -1,15 +1,56 @@
-<!---
-### Create a page according to the layout shown below
-
-![Box Model Exercise 6](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/box-model/ex-6.png)
-
-#### Problems for exercise 2 in the layout
-
-- Each parent container has width of 600px and border of 1px;
-- Each children box has width 180px and height 100px as well as margin of 10px;
-- Each child box which is having border has border-width 1px.
-- Note in the first container the boxes do not have any border.
-
-- Using CSS resets is necessary.
-- Use semantic tags and keep the nesting and indentation proper.
---->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="style.css"/>
+        <title>Box Model Assignment-3</title>
+    </head>
+    <body>
+        <header>
+            <h1>The Box Model, Box-sizing & Box-shadow</h1>
+        </header>
+        <main>
+            <section class="one">
+                <h2>Exercise 1</h2>
+                <span class="square"></span>
+                <span class="info">
+                    <span class="small1"></span>
+                    <span>Content</span>
+                    <span class="small2"></span>
+                    <span>Padding</span>
+                    <span class="small3"></span>
+                    <span>Border</span>
+                    <span class="small4"></span>
+                    <span>Margin</span>
+                </span>
+            </section>
+            <section class="two">
+                <h2>Exercise 2</h2>
+                <p>no border on these boxes.</p>
+                <div class="single">
+                    <span class="three"></span>
+                    <span class="three"></span>
+                    <span class="three"></span>
+                </div>
+            </section>
+            <section class="four">
+                <p class="second">1px border on these boxes.</p>
+                <div class="bigbox">
+                    <span class="boxes">
+                        <span class="five"></span>
+                        <span class="six"></span>
+                    </span>
+                    <div class="seven"></div>
+                </div>
+            </section>
+            <section class="lastline">
+                <p>1px border on these boxes but they are in same line.</p>
+                <div class="single">
+                    <span class="last"></span>
+                    <span class="last"></span>
+                    <span class="last"></span>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
