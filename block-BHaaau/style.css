@@ -1,0 +1,195 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+h1{
+    margin-top: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 28px;
+    margin-top: 50px;
+}
+.one{
+    text-align: center;
+}
+.square{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: inline-block;
+    width: 125px;
+    height: 125px;
+    background-color: aqua;
+    padding: 100px;
+    border: black;
+    border-width: 5px;
+    border-style: solid;
+    box-shadow: inset 0 0 0 50px aquamarine;
+    outline: 50px solid coral;
+}
+.info{
+    display: block;
+    text-align: center;
+}
+.small1{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: aqua;
+}
+.small2{
+    margin-left: 30px;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: aquamarine;
+}
+.small3{
+    margin-left: 30px;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black;
+}
+.small4{
+    margin-left: 30px;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: chocolate;
+}
+.three{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    width: 180px;
+    height: 100px;
+    background-color: grey;
+}
+.single{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 580px;
+    margin-right: 580px;
+    border: 2px solid black;
+}
+.two{
+    text-align: center;
+}
+p{
+    margin-top: 30px;
+    font-weight: lighter;
+    font-size: 24px;
+}
+.five{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    width: 180px;
+    height: 100px;
+    background-color: grey;
+    border: black solid 1px;
+}
+.six{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    display: inline-block;
+    width: 180px;
+    height: 100px;
+    background-color: grey;
+    border: black solid 1px;
+}
+.seven{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 180px;
+    height: 100px;
+    background-color: grey;
+    border: black solid 1px;
+}
+.bigbox{
+    width: 700px;
+    height: 250px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 580px;
+    margin-right: 580px;
+    border: 2px solid black;
+}
+.boxes{
+    display: inline-block;
+}
+.second{
+    text-align: center;
+}
+.lastline{
+    text-align: center;
+}
+.last{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    width: 180px;
+    height: 100px;
+    background-color: grey;
+    border: 1px solid black; 
+}
